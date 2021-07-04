@@ -1,0 +1,117 @@
+body {
+	margin: 0;
+    font-family: "Microsoft YaHei";
+}
+
+p,a,ul,li {
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+    color: #2DB5A3;
+	border-bottom: 2px solid #2DB5A3;
+}
+
+h1 {
+	text-align: center;
+}
+
+div.inner {
+	width: 1000px;
+	margin-left: auto;
+    margin-right: auto;
+}
+
+div#header {
+	height:100px;
+	background:url(../img/header_bg.webp) center;
+}
+
+div#title {
+	background:url(../img/title.png) no-repeat center;
+
+}
+
+div#nav {
+	height: 80px;
+	background-color: #F5F5F5;
+}
+
+ul#nav_list {
+    height: 80px;
+    list-style: none;
+}
+
+li.item {
+    padding: 0 25px;
+	line-height: 80px; 
+    float: left;
+    position: relative;
+	font-size: 18px;
+}
+
+
+div#container {
+	height: 400px;
+	background-color:#F5F5F5;
+}
+
+div.CarouselFigure {
+			position: absolute;
+		}
+	
+div.introduction {
+			position: relative;
+			top: -41px;
+			line-height: 32px;
+			background-color: rgba(0, 0, 0, 0.5);
+			padding-top: 5px;
+			text-indent: 25px;
+			font-family: "微软雅黑";
+			font-size: 12pt;
+			font-weight: 800;
+			color: #fff;
+			opacity: 0.5;
+			text-align: center;
+}
+	
+#table {
+			position: absolute;
+			margin: 0 auto;
+			bottom: 50px;
+			right: 15px;
+	
+}
+	
+td {
+			width: 20px;
+			height: 20px;
+			text-align: center;
+			line-height: 20px;
+			border: 2px solid #fff;
+}
+
+div#footer {
+	height:100px;
+	background-color:#5e6664;
+}
+
+div#footer p {
+	font-size: 12px;
+	text-align: center;
+	line-height: 20px;
+}
+
+div#left {
+	width: 900px;
+	float: left;
+}
+
+div#QRCode {
+    width: 100px;
+	float: right;
+}
